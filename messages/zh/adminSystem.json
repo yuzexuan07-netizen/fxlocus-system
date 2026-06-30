@@ -1,0 +1,11 @@
+{
+  "title": "管理后台",
+  "lead": "本轮为“无数据库”版本：后台以内容生成与导出为主，方便你手动提交发布。",
+  "sections": {
+    "overviewTitle": "本区用途",
+    "overviewBody": "本轮不接入数据库，管理功能聚焦于生成可发布的内容产物（JSON/Markdown 等），你可以导出后手动 commit 即完成发布。",
+    "accessTitle": "访问控制",
+    "accessBody": "仅 admin 账号可访问（cookie 登录态 + middleware 守卫）。"
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "title": "Admin system",
+  "lead": "Local-first tools for managing content and exports in this iteration.",
+  "sections": {
+    "overviewTitle": "What this area is for",
+    "overviewBody": "This iteration does not use a database. Admin tools focus on generating and exporting content artifacts that you can commit to publish.",
+    "accessTitle": "Access control",
+    "accessBody": "Only admin sessions can access this route (cookie-based demo auth + middleware guard)."
+  }
+}
+

@@ -1,0 +1,107 @@
+{
+  "title": "System",
+  "lead": "Discipline is a record. Log, review, and audit your process.",
+  "features": {
+    "log": "Trade log",
+    "review": "Review templates",
+    "score": "Discipline score",
+    "notes": "Perception notes"
+  },
+  "featureDesc": {
+    "log": "Log entries, exits, rationale, and risk.",
+    "review": "Use weekly review templates and error taxonomy.",
+    "score": "Score consistency, risk, and rule adherence.",
+    "notes": "Keep structured notes for perception and narrative."
+  },
+  "auth": {
+    "title": "Access",
+    "lead": "Sign in to use the system. If the environment isn’t configured, the page runs in demo mode.",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "hint": "If environment variables are not configured, the page runs in demo mode.",
+    "registerHintTitle": "Registration",
+    "registerHintBody": "Please contact your team leader.",
+    "registerHintAction": "Got it"
+  },
+  "mockAuth": {
+    "title": "Sign in",
+    "lead": "Demo login for the System Lite (cookie-based).",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign in",
+    "submitting": "Signing in…",
+    "errorInvalid": "Invalid username or password.",
+    "errorGeneric": "Sign in failed. Please try again.",
+    "demo": {
+      "title": "Demo accounts",
+      "adminLabel": "Admin",
+      "admin": "admin / fxlocus-admin",
+      "memberLabel": "Member",
+      "member": "member / fxlocus-member",
+      "note": "This is a mock sign-in (dev). It will be replaced with real accounts later.",
+      "actions": {
+        "fillMember": "Fill member",
+        "fillAdmin": "Fill admin",
+        "loginMember": "Quick sign in (member)",
+        "loginAdmin": "Quick sign in (admin)"
+      }
+    }
+  },
+  "app": {
+    "title": "System Lite",
+    "lead": "A local-first shell: execution gates, simulation trade logs, weekly reviews, and audit metrics.",
+    "nav": {
+      "dashboard": "Dashboard",
+      "journal": "Journal",
+      "review": "Weekly review",
+      "analytics": "Analytics"
+    },
+    "topbar": {
+      "role": "Role",
+      "logout": "Sign out"
+    },
+    "roles": {
+      "admin": "Admin",
+      "member": "Member"
+    },
+    "pages": {
+      "dashboard": {
+        "title": "Dashboard",
+        "lead": "System Lite runs locally. Import/export and templates land here.",
+        "cards": {
+          "status": {
+            "k": "Status",
+            "v": "Demo mode"
+          },
+          "streak": {
+            "k": "Loss streak",
+            "v": "Not configured"
+          },
+          "risk": {
+            "k": "Daily risk",
+            "v": "Not configured"
+          },
+          "next": {
+            "k": "Next action",
+            "v": "Open the execution gate"
+          }
+        }
+      },
+      "journal": {
+        "title": "Trade log",
+        "lead": "Record the trade with Force / Location / Falsification.",
+        "empty": "UI shell only in this iteration. Logging will be added next."
+      },
+      "review": {
+        "title": "Weekly review",
+        "lead": "Summarize the week in evidence, errors, and corrective actions.",
+        "empty": "UI shell only in this iteration. Weekly review templates will be added next."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "lead": "Trends for R distribution, violations, and scorecards.",
+        "empty": "UI shell only in this iteration. Analytics will be added next."
+      }
+    }
+  }
+}

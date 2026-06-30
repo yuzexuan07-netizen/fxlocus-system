@@ -1,0 +1,54 @@
+{
+  "brandCn": "fxlocus",
+  "brandEn": "fxlocus",
+  "cta": {
+    "enterFramework": "进入系统",
+    "bookCall": "联系管理员",
+    "viewAll": "查看全部",
+    "learnMore": "了解更多",
+    "getStarted": "开始使用",
+    "submit": "提交",
+    "copy": "复制",
+    "back": "返回"
+  },
+  "labels": {
+    "mind": "学习记录",
+    "market": "模拟训练",
+    "price": "数据分析"
+  },
+  "form": {
+    "country": "国家/地区",
+    "phone": "手机号",
+    "placeholders": {
+      "phone": "请输入手机号..."
+    }
+  },
+  "ui": {
+    "menu": "菜单",
+    "close": "关闭",
+    "nav": "导航",
+    "copied": "已复制",
+    "searchCountry": "搜索国家/地区...",
+    "noResults": "无匹配结果",
+    "capabilities": "系统能力",
+    "step": "步骤",
+    "metric": "指标",
+    "before": "之前",
+    "after": "之后",
+    "deliverables": "资料",
+    "trainingAction": "训练动作",
+    "evaluation": "评估",
+    "submitting": "提交中...",
+    "toc": "目录",
+    "minutesShort": "分钟",
+    "locale": {
+      "zh": "中文",
+      "en": "EN"
+    }
+  },
+  "tiers": {
+    "course": "课程",
+    "camp": "训练",
+    "audit": "审核"
+  }
+}

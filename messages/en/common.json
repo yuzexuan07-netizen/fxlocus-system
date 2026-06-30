@@ -1,0 +1,54 @@
+{
+  "brandCn": "fxlocus",
+  "brandEn": "fxlocus",
+  "cta": {
+    "enterFramework": "Enter system",
+    "bookCall": "Contact admin",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "submit": "Submit",
+    "copy": "Copy",
+    "back": "Back"
+  },
+  "labels": {
+    "mind": "Learning records",
+    "market": "Simulation training",
+    "price": "Data analysis"
+  },
+  "form": {
+    "country": "Country/Region",
+    "phone": "Phone number",
+    "placeholders": {
+      "phone": "Type your number..."
+    }
+  },
+  "ui": {
+    "menu": "Menu",
+    "close": "Close",
+    "nav": "Navigation",
+    "copied": "Copied",
+    "searchCountry": "Search country...",
+    "noResults": "No results",
+    "capabilities": "System capabilities",
+    "step": "Step",
+    "metric": "Metric",
+    "before": "Before",
+    "after": "After",
+    "deliverables": "Files",
+    "trainingAction": "Training action",
+    "evaluation": "Review",
+    "submitting": "Submitting...",
+    "toc": "Contents",
+    "minutesShort": "min",
+    "locale": {
+      "zh": "ZH",
+      "en": "EN"
+    }
+  },
+  "tiers": {
+    "course": "Course",
+    "camp": "Training",
+    "audit": "Review"
+  }
+}

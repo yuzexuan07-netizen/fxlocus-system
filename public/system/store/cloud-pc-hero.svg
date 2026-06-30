@@ -1,0 +1,44 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#09111D"/>
+  <rect x="48" y="48" width="1104" height="804" rx="40" fill="url(#bg)"/>
+  <circle cx="923" cy="214" r="172" fill="url(#glow1)" fill-opacity="0.6"/>
+  <circle cx="275" cy="684" r="214" fill="url(#glow2)" fill-opacity="0.42"/>
+  <rect x="170" y="172" width="860" height="500" rx="34" fill="#0E1728" stroke="#304564" stroke-width="4"/>
+  <rect x="206" y="206" width="788" height="410" rx="26" fill="url(#screen)"/>
+  <rect x="452" y="698" width="296" height="32" rx="16" fill="#26384F"/>
+  <rect x="508" y="730" width="184" height="22" rx="11" fill="#182535"/>
+  <rect x="268" y="264" width="244" height="26" rx="13" fill="#67C8FF" fill-opacity="0.9"/>
+  <rect x="268" y="314" width="342" height="16" rx="8" fill="#E8F4FF" fill-opacity="0.86"/>
+  <rect x="268" y="350" width="298" height="16" rx="8" fill="#E8F4FF" fill-opacity="0.42"/>
+  <rect x="268" y="426" width="190" height="124" rx="22" fill="#0E2138" stroke="#36557B"/>
+  <rect x="482" y="426" width="190" height="124" rx="22" fill="#0E2138" stroke="#36557B"/>
+  <rect x="696" y="426" width="190" height="124" rx="22" fill="#0E2138" stroke="#36557B"/>
+  <path d="M314 506C342 474 367 452 388 440C410 429 428 432 444 452C461 474 485 490 518 500C550 510 581 497 610 460" stroke="#6ED6FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M527 496L568 450L607 478L648 434" stroke="#7AF8C8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M742 523C764 489 786 468 809 462C833 455 855 468 876 502" stroke="#FFD28C" stroke-width="10" stroke-linecap="round"/>
+  <rect x="732" y="274" width="154" height="118" rx="24" fill="#102139" stroke="#3E5F8A"/>
+  <circle cx="809" cy="333" r="34" fill="#6DC9FF" fill-opacity="0.18" stroke="#6DC9FF" stroke-width="8"/>
+  <path d="M809 289V333L836 350" stroke="#6DC9FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M154 748C283 676 421 640 568 640C710 640 851 677 992 752" stroke="#3D597D" stroke-width="6" stroke-linecap="round" stroke-dasharray="12 16"/>
+  <text x="268" y="390" fill="#DDEEFF" font-family="Arial, sans-serif" font-size="38" font-weight="700">天翼云训练云电脑</text>
+  <text x="268" y="790" fill="#B8CCE4" font-family="Arial, sans-serif" font-size="34">30 天训练环境 ｜ 204 元</text>
+  <defs>
+    <linearGradient id="bg" x1="68" y1="82" x2="1115" y2="824" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1626"/>
+      <stop offset="1" stop-color="#060B14"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="206" y1="206" x2="994" y2="616" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10243B"/>
+      <stop offset="0.55" stop-color="#0A1628"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(923 214) rotate(90) scale(172)">
+      <stop stop-color="#36BFFA"/>
+      <stop offset="1" stop-color="#36BFFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(275 684) rotate(90) scale(214)">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

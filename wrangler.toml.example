@@ -1,0 +1,48 @@
+# This is the same shape as wrangler.toml.
+# Keep it as a reference if you edit wrangler.toml.
+
+name = "fxlocus-system"
+main = ".open-next/worker.js"
+compatibility_date = "2026-02-05"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+APP_BASE_URL = "https://your-domain.com"
+SYSTEM_COOKIE_DOMAIN = ""
+D1_NAME = "fxlocus-system"
+R2_BUCKET = "fxlocus-system-files"
+R2_ENDPOINT = "https://YOUR_ACCOUNT_ID.r2.cloudflarestorage.com"
+R2_PUBLIC_BASE_URL = ""
+R2_CDN_BASE_URL = ""
+NEXT_PUBLIC_R2_CDN_BASE_URL = ""
+SYSTEM_FILES_BUCKET = "fxlocus-system-files"
+SYSTEM_CLASSIC_TRADES_BUCKET = "fxlocus-system-files"
+SYSTEM_WEEKLY_SUMMARIES_BUCKET = "fxlocus-system-files"
+SYSTEM_SUMMARY_IMAGES_BUCKET = "fxlocus-system-files"
+SYSTEM_CONSULT_BUCKET = "fxlocus-system-files"
+R2_DESKTOP_PREFIX = "desktop"
+R2_MOBILE_PREFIX = "mobile"
+NEXT_PUBLIC_APP_VERSION = "0.1.0"
+NEXT_PUBLIC_LADDER_REFRESH_MS = "60000"
+NEXT_PUBLIC_WEBRTC_TURN_URLS = ""
+NEXT_PUBLIC_WEBRTC_TURN_USERNAME = ""
+NEXT_PUBLIC_WEBRTC_TURN_CREDENTIAL = ""
+LOGIN_RATE_LIMIT_STORE = "d1"
+MIDDLEWARE_LOGIN_RATE_WINDOW_MS = "60000"
+MIDDLEWARE_LOGIN_RATE_LIMIT_PER_IP = "80"
+LOGIN_RATE_LIMIT_WINDOW_MS = "600000"
+LOGIN_RATE_LIMIT_MAX_ATTEMPTS_IP = "60"
+LOGIN_RATE_LIMIT_MAX_ATTEMPTS_EMAIL = "10"
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fxlocus-system"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "R2_ASSETS"
+bucket_name = "fxlocus-system-files"

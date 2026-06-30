@@ -1,0 +1,95 @@
+{
+  "title": "模拟交易系统",
+  "lead": "纪律不是口号，而是证据链。把模拟交易训练变成可记录、可复盘、可审计的过程。",
+  "features": {
+    "log": "模拟交易日志",
+    "review": "复盘模板",
+    "score": "纪律评分",
+    "notes": "认知笔记"
+  },
+  "featureDesc": {
+    "log": "记录进出场、理由、风险与证据链。",
+    "review": "周复盘模板与错误分类，形成可迭代输出。",
+    "score": "衡量一致性、风控与纪律。",
+    "notes": "把市场认知写成结构化笔记与叙事。"
+  },
+  "auth": {
+    "title": "登录与注册",
+    "lead": "登录后进入系统功能；若未配置环境变量，则以演示模式展示。",
+    "signIn": "登录",
+    "signUp": "注册",
+    "hint": "若未配置系统环境变量，将显示演示模式。",
+    "registerHintTitle": "注册提示",
+    "registerHintBody": "请联系团队长",
+    "registerHintAction": "我知道了"
+  },
+  "mockAuth": {
+    "title": "登录",
+    "lead": "System Lite 演示登录（基于 HttpOnly Cookie）。",
+    "username": "账号",
+    "password": "密码",
+    "submit": "登录",
+    "submitting": "登录中...",
+    "errorInvalid": "账号或密码错误。",
+    "errorGeneric": "登录失败，请稍后重试。",
+    "demo": {
+      "title": "演示账号",
+      "adminLabel": "管理员",
+      "admin": "admin / fxlocus-admin",
+      "memberLabel": "成员",
+      "member": "member / fxlocus-member",
+      "note": "当前为演示登录（mock），后续将替换为真实账号体系。",
+      "actions": {
+        "fillMember": "填入 member",
+        "fillAdmin": "填入 admin",
+        "loginMember": "快速登录（member）",
+        "loginAdmin": "快速登录（admin）"
+      }
+    }
+  },
+  "app": {
+    "title": "System Lite",
+    "lead": "本地优先的系统壳子：执行闸门、模拟交易日志、周复盘与审计指标。",
+    "nav": {
+      "dashboard": "概览",
+      "journal": "模拟交易日志",
+      "review": "周复盘",
+      "analytics": "统计"
+    },
+    "topbar": {
+      "role": "角色",
+      "logout": "退出登录"
+    },
+    "roles": {
+      "admin": "管理员",
+      "member": "成员"
+    },
+    "pages": {
+      "dashboard": {
+        "title": "概览",
+        "lead": "System Lite 以本地数据为主。本轮先交付系统壳子与路由守卫。",
+        "cards": {
+          "status": { "k": "状态", "v": "演示模式" },
+          "streak": { "k": "连续亏损", "v": "未配置" },
+          "risk": { "k": "当日风险", "v": "未配置" },
+          "next": { "k": "下一步", "v": "先打开执行闸门" }
+        }
+      },
+      "journal": {
+        "title": "模拟交易日志",
+        "lead": "用 Force / Location / Falsification 写清理由与证据链。",
+        "empty": "本轮先交付 UI 壳子。下一轮加入可填写的日志表单与导出。"
+      },
+      "review": {
+        "title": "周复盘",
+        "lead": "把一周写成证据、错误类型与纠正动作。",
+        "empty": "本轮先交付 UI 壳子。下一轮加入周复盘模板与统计。"
+      },
+      "analytics": {
+        "title": "统计",
+        "lead": "查看 R 分布、违规趋势与评分卡走势。",
+        "empty": "本轮先交付 UI 壳子。下一轮加入统计图表与趋势分析。"
+      }
+    }
+  }
+}
